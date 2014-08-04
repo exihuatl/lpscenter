@@ -110,7 +110,7 @@ li{font-size:1.4em;}
 	
 	
 	/* == low res design == */
-@media and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 	.col-md-6 {border-bottom:1px solid #888;}
 	.list-unstyled{margin-bottom:10%;}
 	.list-unstyled h1 {font-size: 1.75em;}
@@ -123,7 +123,7 @@ li{font-size:1.4em;}
 	.modal-dialog {padding-top:30%;margin:0;}
 	iframe {width:280px;height:157.5px;}
 }
-@media and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.col-md-8{width:initial;margin-top:25%;margin-bottom:25%;margin-left:1%;margin-right:1%;padding:5%;font-size:1.35em;}
 	.pic-right-out {padding-top:1%;text-align:right;}
 	.pic-left-out {padding-bottom:1%;text-align:left;}
@@ -131,7 +131,7 @@ li{font-size:1.4em;}
 	.pic-right-in img, .pic-left-in img {padding: 0;width:100%;}
 	.pic-left-in, .pic-right-in {}
 }
-@media (min-width:525px) and (max-width:768px) {
+@media only screen and (min-width:525px) and (max-width:768px) {
 	.col-md-8 {font-size:1.75em;}
 	.pic-right-in img{padding-left:20%;}
 	.pic-left-in img {padding-right:20%;}
