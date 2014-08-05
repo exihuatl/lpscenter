@@ -13,11 +13,11 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 		/* ======== CONTAINERS BODY HTML ======== */
 html {position: relative;min-height:100%;}
 body{margin:0px;width:100%;background-image: url("../images/grain.png");margin-bottom: 60px;}
-.darkbody{background-image: url("../images/grain-inverted.png");}
 .footer {position: absolute;padding-top:15px;text-align:center;bottom: 0;width: 100%;height: 60px;opacity:0.55;font-size:100%;}
 .modal-body, .modal-content{width: 598px;height: 350px;margin:0 auto;}
 .modal-content{background-image: url("../images/grain.png");}
 .modal-dialog {padding-top: 15%;}
+.darkbody{background-image: url("../images/grain-inverted.png");}
 iframe {	width:567.5px;	height:319.5px;}
 
 .row{
@@ -27,7 +27,6 @@ iframe {	width:567.5px;	height:319.5px;}
          -o-animation: fadein 10s; /* Opera */
             animation: fadein 10s;
 }
-.modal-content{background-image: url("../images/grain.png");}
 		/* ======== END OF CONTAINERS BODY HTML =========*/
 	
 	/* -- header -- */
