@@ -15,7 +15,8 @@ html {position: relative;min-height:100%;}
 body{margin:0px;width:100%;background-image: url("../images/grain.png");margin-bottom: 60px;}
 .darkbody{background-image: url("../images/grain-inverted.png");}
 .footer {position: absolute;padding-top:15px;text-align:center;bottom: 0;width: 100%;height: 60px;opacity:0.55;font-size:100%;}
-.modal-body, .modal-content{width: 598px;height: 350px;margin:0 auto;background-image: url("../images/grain.png");}
+.modal-body, .modal-content{width: 598px;height: 350px;margin:0 auto;}
+.modal-body{background-image: url("../images/grain.png");}
 .modal-dialog {padding-top: 15%;}
 iframe {	width:567.5px;	height:319.5px;}
 
